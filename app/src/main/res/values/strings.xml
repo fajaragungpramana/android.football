@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Array -->
+    <string-array name="league_list">
+        <item>English Premier League</item>
+        <item>Italian Serie A</item>
+        <item>Italian Serie B</item>
+        <item>Spanish La Liga</item>
+        <item>German Bundesliga</item>
+        <item>French Ligue 1</item>
+        <item>French Ligue 2</item>
+    </string-array>
+
+    <!-- String -->
+    <string name="app_name">Football Mobile</string>
+    <string name="slogan_loading">See your favorites team\'s match schedule</string>
+    <string name="nav_matches">Matches</string>
+    <string name="nav_teams">Teams</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="action_about_app">About App</string>
+    <string name="btn_next_match">Next Match</string>
+    <string name="btn_last_match">Last Match</string>
+    <string name="toolbar_title_football_matches">Football Matches</string>
+    <string name="toolbar_title_football_teams">Football Teams</string>
+    <string name="query_hint_search_match">Search Match</string>
+    <string name="query_hint_search_team">Search Team</string>
+    <string name="text_vs">Vs</string>
+    <string name="text_home">Home</string>
+    <string name="text_away">Away</string>
+    <string name="text_see_details">See Details</string>
+    <string name="score_default">0</string>
+    <string name="negative">-</string>
+    <string name="error_no_connection_title">Oops, your connection seems off…</string>
+    <string name="error_no_connection_subtitle">Check your connection or try again.</string>
+    <string name="btn_retry">Retry</string>
+    <string name="title_football_match_detail">Football Match Detail</string>
+    <string name="text_shots">Shots</string>
+    <string name="text_goals">Goals</string>
+    <string name="text_yellow_cards">Yellow Cards</string>
+    <string name="text_red_cards">Red Cards</string>
+    <string name="text_keeper">Keeper</string>
+    <string name="text_defense">Defense</string>
+    <string name="text_midfield">Midfield</string>
+    <string name="text_forward">Forward</string>
+    <string name="text_subtitute">Subtitute</string>
+    <string name="title_match_overview">Match Overviews</string>
+    <string name="title_lineup_overview">Lineup Overviews</string>
+    <string name="text_zero">0</string>
+    <string name="alert_press_again_to_exit">Press back again to exit!</string>
+    <string name="toolbar_title_football_team_detail">Football Team Detail</string>
+    <string name="tab_title_team_overview">Team Overview</string>
+    <string name="tab_title_player_overview">Player Overview</string>
+    <string name="text_other_info">Other Info</string>
+    <string name="text_birth_location">Birth Location</string>
+    <string name="text_club">Club</string>
+    <string name="text_date_born">Date Born</string>
+    <string name="text_date_signed">Date Signed</string>
+    <string name="text_gender">Gender</string>
+    <string name="text_height">Height</string>
+    <string name="text_nationality">Nationality</string>
+    <string name="text_signing">Signing</string>
+    <string name="text_weight">Weight</string>
+    <string name="text_history">History</string>
+    <string name="toolbar_title_player_detail">Football Player Detail</string>
+    <string name="assigment">:</string>
+    <string name="m">M</string>
+    <string name="kg">KG</string>
+    <string name="event_location_to_calendar">TELEVISION</string>
+    <string name="calendar_denied">Calendar permission denied!</string>
+    <string name="tab_title_match">Match</string>
+    <string name="tab_title_team">Team</string>
+    <string name="toolbar_title_football_favorites">Football Favorites</string>
+    <string name="toast_added_to_favorites">Added to Favorites</string>
+    <string name="toast_remove_from_favorites">Removed from Favorites</string>
+
+</resources>

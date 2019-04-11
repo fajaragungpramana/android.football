@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mengsoftstudio.android.footballmobile">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".dis.App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Loading Activity -->
+        <activity
+            android:name=".views.activity.LoadingActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".views.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- Match Detail Activity -->
+        <activity
+            android:name=".views.activity.MatchDetailActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".views.activity.MainActivity" />
+
+        <!-- Search Match Activity -->
+        <activity
+            android:name=".views.activity.SearchMatchActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".views.activity.MainActivity" />
+
+        <!-- Team Detail Activity -->
+        <activity
+            android:name=".views.activity.TeamDetailActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".views.activity.MainActivity" />
+
+        <!-- Search Team Activity -->
+        <activity
+            android:name=".views.activity.SearchTeamActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".views.activity.MainActivity" />
+
+        <!-- Player Detail Activity -->
+        <activity
+            android:name=".views.activity.PlayerDetailActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

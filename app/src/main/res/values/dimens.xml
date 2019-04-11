@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_margin">8dp</dimen>
+    <dimen name="default_stroke">1dp</dimen>
+    <dimen name="default_corners">16dp</dimen>
+    <dimen name="subtitle_size">16sp</dimen>
+    <dimen name="button_size">14sp</dimen>
+    <dimen name="default_padding">8dp</dimen>
+    <dimen name="body_size">14sp</dimen>
+    <dimen name="spinner_width">250dp</dimen>
+    <dimen name="card_corner">6dp</dimen>
+    <dimen name="default_elevation">2dp</dimen>
+    <dimen name="width_image_adapter_team">100dp</dimen>
+    <dimen name="height_image_adapter_team">100dp</dimen>
+    <dimen name="width_image_player">120dp</dimen>
+    <dimen name="height_image_player">120dp</dimen>
+    <dimen name="padding_start_rv_player">24dp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Color Opacity -->
+    <color name="colorOpacityGray">#EBEBEB</color>
+
+    <!-- Full Color -->
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#999999</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#BDBDBD</color>
+
+</resources>
