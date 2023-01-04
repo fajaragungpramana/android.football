@@ -1,37 +1,9 @@
 <resources>
 
-    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-    </style>
-
-    <!-- Toolbar Theme Style-->
-    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
-        <item name="android:fontFamily">@font/over_lock</item>
-    </style>
-
-    <!-- Bottom Navigation Theme Style -->
-    <style name="BottomNavigationViewTheme" parent="Widget.Design.BottomNavigationView">
-        <item name="android:fontFamily">@font/over_lock</item>
-    </style>
-
-    <!-- TabLayout Theme Style -->
-    <style name="TabLayoutTheme" parent="Widget.Design.TabLayout">
-        <item name="tabGravity">fill</item>
-        <item name="tabIndicatorColor">@color/colorPrimaryText</item>
-        <item name="tabMode">fixed</item>
-        <item name="tabSelectedTextColor">@color/colorPrimaryText</item>
-        <item name="tabTextAppearance">@style/TabTextAppearance</item>
-    </style>
-
-    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
-        <item name="android:fontFamily">@font/over_lock</item>
-        <item name="textAllCaps">true</item>
-        <item name="android:textColor">@color/colorSecondaryText</item>
-        <item name="android:textSize">@dimen/subtitle_size</item>
     </style>
 
 </resources>
