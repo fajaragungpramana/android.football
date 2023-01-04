@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Football"
 include ':app'
+include ':common'
+include ':widget'
