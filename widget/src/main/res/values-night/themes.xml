@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="App.CeritaKita" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnPrimary">@color/color_primary_black</item>
+
+        <item name="colorSecondary">@color/color_primary</item>
+        <item name="colorSecondaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnSecondary">@color/color_primary_black</item>
+
+        <item name="android:statusBarColor">@color/color_primary_variant</item>
+    </style>
+
+</resources>
