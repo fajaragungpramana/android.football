@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextHeading20">
+        <item name="android:fontFamily">@font/overlock_bold</item>
+        <item name="android:textColor">@color/color_primary_black</item>
+        <item name="android:textSize">@dimen/text_20</item>
+    </style>
+
+</resources>
