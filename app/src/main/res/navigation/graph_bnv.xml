@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bnv_graph"
+    app:startDestination="@id/matchFragment">
+
+    <fragment
+        android:id="@+id/matchFragment"
+        android:name="com.github.fajaragungpramana.football.ui.match.MatchFragment"
+        tools:layout="@layout/fragment_match">
+        <action
+            android:id="@+id/action_matchFragment_to_teamFragment"
+            app:destination="@id/teamFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/teamFragment"
+        android:name="com.github.fajaragungpramana.football.ui.team.TeamFragment"
+        tools:layout="@layout/fragment_team">
+        <action
+            android:id="@+id/action_teamFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.github.fajaragungpramana.football.ui.favorite.FavoriteFragment"
+        tools:layout="@layout/fragment_favorite" />
+
+</navigation>
