@@ -1,4 +1,4 @@
-package com.github.fajaragungpramana.football.ui
+package com.github.fajaragungpramana.football.ui.main
 
 import android.os.Bundle
 import com.github.fajaragungpramana.football.common.app.AppActivity
